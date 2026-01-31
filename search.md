@@ -22,7 +22,7 @@ It allows you to search for **specific types and versions of servers, networking
 
 You may want to see how many servers are still running Apache 2.4.1 and the distribution across countries. To find the answer, we can search for apache 2.4.1, which will return the list of servers with the string “apache 2.4.1” in their headers.
 
-![shodanExample](/Cyber%20Security%20101/images/shodan.png)
+![shodanExample](/images/shodan.png)
 
 ### Censys
 
@@ -30,7 +30,7 @@ At first glance, Censys appears similar to Shodan. However, Shodan focuses on In
 
 Some of its use cases include enumerating domains in use, auditing open ports and services, and discovering rogue assets within a network. You might want to check Censys Introductory Use Cases.
 
-![censysExample](/Cyber%20Security%20101/images/censys.png)
+![censysExample](/images/censys.png)
 
 ### VirusTotal
 
@@ -42,7 +42,7 @@ The screenshot below shows the result of checking the submitted file against 67 
 
 Occasionally, a file might be flagged as a virus or a Trojan; however, this might not be accurate for various reasons, and that's when community members can provide a more in-depth explanation.
 
-![virusTotalExample](/Cyber%20Security%20101/images/virusTotal.png)
+![virusTotalExample](/images/virusTotal.png)
 
 ### Have I Been Pwned
 
@@ -50,7 +50,7 @@ Have I Been Pwned (HIBP) **tells you if an email address has appeared in a leake
 
 Many users use the same password across multiple platforms, if one platform is breached, their password on other platforms is also exposed. Indeed, passwords are usually stored in encrypted format; however, many passwords are not that complex and can be recovered using a variety of attacks.
 
-![haveIBeenPwnedExample](/Cyber%20Security%20101/images/pwned.png)
+![haveIBeenPwnedExample](/images/pwned.png)
 
 ## Vulnerabilities & Exploits
 

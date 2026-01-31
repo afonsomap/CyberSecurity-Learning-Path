@@ -14,14 +14,18 @@ A command-line tool used to find **hidden pages, directories, and files** within
 
 ### Usage of dirb
 
-```
-# Basic scan using the default wordlist
+Basic scan using the default wordlist
+```bash
 dirb http://<target_ip_or_domain>/
+```
 
-# Scan using a specific wordlist
+Scan using a specific wordlist
+```bash
 dirb http://<target_ip>/ /usr/share/wordlists/dirb/big.txt
+```
 
-# Scan a specific file extension
+Scan a specific file extension
+```bash
 dirb http://<target_ip>/ -X .php
 ```
 
